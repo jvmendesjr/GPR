@@ -1,3 +1,4 @@
+ <!DOCTYPE html> <html> <head> <title>Gestão Pública para Resultados (GpR)</title> <style> body { font-family: Arial, sans-serif; margin: 20px; } h1, h2, h3 { color: #333; } table { width: 100%; border-collapse: collapse; } th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; } th { background-color: #f2f2f2; } </style> </head> <body> <h1>Gestão Pública para Resultados (GpR)</h1> <p>A Gestão Pública para Resultados (GpR) é uma abordagem de administração pública que visa melhorar a eficiência, eficácia e efetividade das políticas e serviços públicos. Ela se concentra na obtenção de resultados concretos para a sociedade, em vez de apenas nos processos e atividades internas do governo.</p>
 <h2>Comparação entre Gestão Tradicional e Gestão para Resultados</h2>
 <table>
     <tr>
@@ -56,3 +57,5 @@
 <p>A implementação da GpR envolve o uso de diversas ferramentas e abordagens, como o Plano Plurianual (PPA), o Sistema Integrado de Planejamento e Orçamento (SIOP), o Portal da Transparência e o Spending Review. Além disso, observam-se tendências emergentes, como o uso de inteligência artificial para otimizar a entrega de serviços públicos.</p>
 
 <p>Ao adotar a Gestão Pública para Resultados, as organizações públicas podem melhorar significativamente a eficiência, eficácia e efetividade de suas políticas e serviços, gerando maior impacto positivo para a sociedade.</p>
+
+</body> </html> 
