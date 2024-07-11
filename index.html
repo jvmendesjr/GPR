@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> EM EDIÇÃO - AGUARDEM </title>
+    <title>Apostila de Gestão Pública</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -54,9 +54,115 @@
     </style>
 </head>
 <body>
-    <h1>EM EDIÇÃO - AGUARDEM </h1>
+    <h1>Apostila de Gestão Pública</h1>
 
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'cap1')">Capítulo 1</button>
+        <button class="tablinks" onclick="openTab(event, 'cap2')">Capítulo 2</button>
+        <button class="tablinks" onclick="openTab(event, 'cap3')">Capítulo 3</button>
+        <button class="tablinks" onclick="openTab(event, 'cap4')">Capítulo 4</button>
+        <button class="tablinks" onclick="openTab(event, 'cap5')">Capítulo 5</button>
+        <button class="tablinks" onclick="openTab(event, 'cap6')">Capítulo 6</button>
+        <button class="tablinks" onclick="openTab(event, 'simulado')">Simulado</button>
+        <button class="tablinks" onclick="openTab(event, 'respostas')">Respostas</button>
+    </div>
 
+    <div id="cap1" class="tabcontent">
+        <h2>Capítulo 1: Introdução à Gestão Pública</h2>
+        <p>Conteúdo do Capítulo 1...</p>
+    </div>
+
+    <div id="cap2" class="tabcontent">
+        <h2>Capítulo 2: Princípios da Administração Pública</h2>
+        <p>Conteúdo do Capítulo 2...</p>
+    </div>
+
+    <div id="cap3" class="tabcontent">
+        <h2>Capítulo 3: Planejamento Estratégico no Setor Público</h2>
+        <p>Conteúdo do Capítulo 3...</p>
+    </div>
+
+    <div id="cap4" class="tabcontent">
+        <h2>Capítulo 4: Orçamento Público</h2>
+        <p>Conteúdo do Capítulo 4...</p>
+    </div>
+
+    <div id="cap5" class="tabcontent">
+        <h2>Capítulo 5: Gestão de Pessoas no Setor Público</h2>
+        <p>Conteúdo do Capítulo 5...</p>
+    </div>
+
+    <div id="cap6" class="tabcontent">
+        <h2>Capítulo 6: Ética na Administração Pública</h2>
+        <p>Conteúdo do Capítulo 6...</p>
+    </div>
+
+    <div id="simulado" class="tabcontent">
+        <h2>Simulado de Gestão Pública</h2>
+        
+        <section id="multiple-choice">
+            <h3>Questões de Múltipla Escolha</h3>
+            <div class="question">
+                <p>1. Qual dos seguintes NÃO é um princípio da Administração Pública?</p>
+                <div class="options">
+                    <p>a) Legalidade</p>
+                    <p>b) Impessoalidade</p>
+                    <p>c) Moralidade</p>
+                    <p>d) Publicidade</p>
+                    <p>e) Confidencialidade</p>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>2. O que significa o princípio da eficiência na Administração Pública?</p>
+                <div class="options">
+                    <p>a) Gastar o mínimo possível</p>
+                    <p>b) Realizar o máximo com os recursos disponíveis</p>
+                    <p>c) Contratar o menor número de funcionários</p>
+                    <p>d) Privatizar todos os serviços públicos</p>
+                    <p>e) Aumentar a burocracia para garantir o controle</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="essay">
+            <h3>Questões Dissertativas</h3>
+            <div class="question">
+                <p>1. Explique a importância do planejamento estratégico no setor público e cite três benefícios que ele pode trazer para a gestão pública.</p>
+            </div>
+            
+            <div class="question">
+                <p>2. Discorra sobre os desafios da gestão de pessoas no setor público, abordando aspectos como motivação, capacitação e avaliação de desempenho.</p>
+            </div>
+        </section>
+    </div>
+
+    <div id="respostas" class="tabcontent">
+        <h2>Respostas do Simulado</h2>
+        
+        <h3>Questões de Múltipla Escolha</h3>
+        <p>1. Resposta: e) Confidencialidade</p>
+        <p>2. Resposta: b) Realizar o máximo com os recursos disponíveis</p>
+        
+        <h3>Questões Dissertativas</h3>
+        <p>1. Resposta esperada: [Insira aqui os pontos principais da resposta]</p>
+        <p>2. Resposta esperada: [Insira aqui os pontos principais da resposta]</p>
+    </div>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
     </script>
 </body>
 </html>
